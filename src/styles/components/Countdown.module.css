@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap%27');
+
 .countdownContainer {
   display: flex;
   align-items: center;
@@ -73,7 +75,7 @@
   color: var(--white);
 }
 
-.countdownButton:disabled{
+.countdownButton:disabled {
   background: var(--white);
   color: var(--text);
   cursor: not-allowed;
