@@ -36,23 +36,23 @@ export function ChallengeBox(){
         className={styles.challengeFailedButton}
         onClick={handleChallengeFailed}
         >
-          Falhei
+          FALHEI
         </button>
         <button 
         type="button"
         className={styles.challengeSucceededButton}
         onClick={handleChallengeSucceeded}
         >
-          Completei
+          VENCI
         </button>
       </footer>
      </div>
    ) :(
       <div className={styles.challengeNotActive}>
-      <strong>Finalize um ciclo para receber um desafio</strong>
+      <strong>Complete a contagem para receber um desafio </strong>
       <p>
         <img src="icons/level-up.svg" alt="Level Up"/>
-        Avance de level completando desafios.
+        Comece o desafio hoje!
       </p>
 
     </div>
